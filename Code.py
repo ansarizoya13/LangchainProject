@@ -2,8 +2,7 @@ import streamlit as st
 import cohere
 import os
 
-# Initialize the Cohere client with your API key from an environment variable
-  # Replace with actual key or ensure the env variable is set
+
 cohere_client = cohere.Client('wP6gwqGMQMWvJZmy3YunEs5NiNwMmzVwn2mYu7pS')
 
 # Helper functions
